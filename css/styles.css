@@ -1,0 +1,232 @@
+body {    
+       font-family: "Roboto", sans-serif;        
+      }
+body {
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.header-logos {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 117%;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+}    
+
+.header-logos-blu {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.header {
+    background: white;
+}
+
+.header-menu .links {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-menu .links:hover {
+    color: #404bbf;
+}
+
+.header-menu .links:focus {
+    color: #404bbf;
+}
+
+.kontact-header {
+    font-style: normal;
+}
+
+.link {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+}
+
+/* ---------header stop----------- */
+/*----------section1-------------*/
+
+ .bodder-tittle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:white;
+}
+
+
+.bodder {
+    background-color: #2e2f42;
+}
+
+.section-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
+    color:  #fff;
+    cursor: pointer;
+    }
+
+    .section-button:hover {
+        background-color: #404BBF;
+    }
+
+    .section-button:focus {
+        background-color: #404BBF;
+
+    }
+/*---------------------------*/
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------------------------*/
+
+/*--------------section2-----------*/
+
+ .strateg-list {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.strateg-text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*--------------section3------------*/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-foto-menu {
+    background-color: #FFFFFF;
+}
+
+.team-tittle {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-foto {
+    background-color: #FFFFFF;
+}
+
+.team-foto-list {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;    
+}
+
+.team-foto-text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;    
+}
+
+/*-----------------section4---------------*/
+
+.portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;    
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.port-section-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.port-section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*-------------footer---------*/
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.footer-logos {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logos-white {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
