@@ -104,14 +104,13 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color:white;
-    margin-bottom: 48px;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 
 
 .bodder {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .section-button {
@@ -122,7 +121,8 @@ a {
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color:  #fff;
-    cursor: pointer;    
+    cursor: pointer; 
+    margin-bottom: 188px;   
     }
 
     .section-button:hover {
