@@ -6,6 +6,35 @@ body {
     background-color: #FFFFFF;
 }
 
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .header-logos {
      font-family: 'Raleway', sans-serif;
      font-weight: 700;
@@ -27,6 +56,8 @@ body {
 
 .header {
     background: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu .links {
@@ -73,11 +104,14 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color:white;
+    margin-bottom: 48px;
 }
 
 
 .bodder {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-button {
@@ -88,7 +122,7 @@ body {
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color:  #fff;
-    cursor: pointer;
+    cursor: pointer;    
     }
 
     .section-button:hover {
@@ -100,24 +134,20 @@ body {
 
     }
 /*---------------------------*/
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-/*------------------------------*/
 
 /*--------------section2-----------*/
 
+.strategy {
+    padding-top: 114px;
+    padding-bottom: 120px;
+}
  .strateg-list {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .strateg-text {
@@ -132,10 +162,12 @@ a {
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-foto-menu {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;      
 }
 
 .team-tittle {
@@ -146,11 +178,14 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-foto {
     background-color: #FFFFFF;
 }
+
+
 
 .team-foto-list {
     font-weight: 500;
@@ -158,7 +193,8 @@ a {
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;    
+    color: #2e2f42;
+    padding: 32px 65px 4px 65px;    
 }
 
 .team-foto-text {
@@ -167,10 +203,16 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;    
+    color: #434455;
+    padding: 4px 68px 32px 68px;  
 }
 
 /*-----------------section4---------------*/
+
+.Our-Portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .portfolio {
     font-weight: 700;
@@ -180,6 +222,7 @@ a {
     text-align: center;    
     color: #2e2f42;
     text-transform: capitalize;
+    margin: 72px;
 }
 
 .port-section-list {

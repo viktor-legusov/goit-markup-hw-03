@@ -6,11 +6,13 @@
     <title>Web studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header class="header">
+        <div class="container">       
         <nav class="header-navigation">
             <a class="header-logos" href="./index.html">Web<span class="header-logos-blu">Studio</span> </a>
             <ul class="header-menu">
@@ -25,16 +27,20 @@
                 <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        </div>
     </header>    
     <main>
         <!-----------section1---------->
         <section class="bodder">
+        <div class="container">
         <h1 class="bodder-tittle">Effective Solutions for Your Business</h1>        
         <button class="section-button" type="button">Order Service</button>
-        </section>
+        </div>
+        </section>        
         <!-----------section2---------->
-        <section> 
-            <h2>WebStudio</h2>
+        <section class="strategy">
+            <div class="container">
+            <!--------<h2>WebStudio</h2>?????--------->
             <ul class="strateg">
                 <li>
                     <h3 class="strateg-list">Strategy</h3>
@@ -53,9 +59,11 @@
                     <p class="strateg-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>           
             </ul>
+            </div>
         </section>
         <!--------------section3--------------------------->
         <section class="team">
+            <div class="container">
             <h2 class="team-tittle">Our Team</h2>
             <ul class="team-foto">
                 <li class="team-foto-menu">
@@ -66,7 +74,8 @@
                     <h3 class="team-foto-list">Mark Guerrero</h3>
                     <p class="team-foto-text">Product Designer</p>
                 </li>
-                <li class="team-foto-menu"><img src="./images/img-2.jpg" 
+                <li class="team-foto-menu">
+                    <img src="./images/img-2.jpg" 
                          alt="Tom Ford"
                          width="264"
                          height="260" />
@@ -90,9 +99,11 @@
                     <p class="team-foto-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--------------section4------------------------>
-        <section>
+        <section class="Our-Portfolio">
+            <div class="container">
             <h2 class="portfolio">Our Portfolio</h2>
             <ul class="port-section">
                 <li>
@@ -144,13 +155,16 @@
                     <p class="port-section-text">Marketing</p>
                 </li>
             </ul>
+            </div>
         </section>
 
     </main>   
     <!----------------------footer--------------------------------> 
 <footer class="footer">
+    <div class="container">
     <a class="footer-logos" href="/">Web<span class="footer-logos-white">Studio</span></a>    
-     <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
 </footer>
 </body>
 </html>
