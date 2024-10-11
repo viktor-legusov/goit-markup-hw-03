@@ -61,6 +61,8 @@ a {
 .header-menu {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logos-blu {
@@ -105,6 +107,8 @@ a {
     display: flex;
     gap: 40px;
     margin-left: 300px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link {
@@ -130,14 +134,17 @@ a {
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color:white;
-    padding-top: 188px;
-    padding-bottom: 48px;
+    color:white; 
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;    
 }
 
 
 .bodder {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-button {
@@ -148,11 +155,13 @@ a {
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color:  #fff;
-    cursor: pointer; 
-    margin-bottom: 188px; 
+    cursor: pointer;    
     border-radius: 4px;      
-    width: 169px;
-    height: 56px; 
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    margin: 0 auto;
 }
 
 .section-button:hover {
@@ -302,7 +311,9 @@ a {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;  
+    color: #4d5ae5; 
+    margin-bottom: 16px;
+    display: inline-block; 
 }
 
 .footer-logos-white {
