@@ -60,10 +60,10 @@ a {
 
 .header-menu {
     display: flex;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    gap: 40px; 
 }
+
+
 
 .header-logos-blu {
     font-weight: 700;
@@ -89,6 +89,8 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu .links:hover {
@@ -226,7 +228,7 @@ a {
 .team-foto-menu {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);  
-    order-radius: 0px 0px 4px 4px;    
+    border-radius: 0px 0px 4px 4px;    
 }
 
 .team-tittle {
@@ -236,8 +238,8 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
+    text-transform: capitalize;  
+    margin-bottom: 72px;  
 }
 
 .team-foto {
