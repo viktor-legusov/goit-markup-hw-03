@@ -178,6 +178,11 @@ a {
 
 /*--------------section2-----------*/
 
+.visually-hidden {
+    visually: hidden;
+}
+
+
 .strategy {
     padding-top: 120px;
     padding-bottom: 120px;
