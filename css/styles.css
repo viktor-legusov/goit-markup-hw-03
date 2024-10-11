@@ -290,7 +290,7 @@ a {
     margin: 72px;
 }
 
-.port-menu {
+.port-section-menu {
     width: calc((100% - 48px) / 3);
 }
 
@@ -300,7 +300,7 @@ a {
     border-top: none;
 }
 
-.port-section {
+.port {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
