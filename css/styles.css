@@ -72,6 +72,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header {
@@ -177,10 +179,21 @@ a {
 /*--------------section2-----------*/
 
 .strategy {
-    padding-top: 114px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
- .strateg-list {
+
+.strateg {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.strateg-list {
+    width: calc((100% - 72px) / 4); 
+}
+
+ .strateg-tittle {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 120%;
@@ -206,7 +219,9 @@ a {
 }
 
 .team-foto-menu {
-    background-color: #FFFFFF;      
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);  
+    order-radius: 0px 0px 4px 4px;    
 }
 
 .team-tittle {
@@ -222,9 +237,14 @@ a {
 
 .team-foto {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
 }
 
-
+.job-tittles {
+    padding-top: 32px;
+    padding-bottom: 32px;   
+}
 
 .team-foto-list {
     font-weight: 500;
@@ -232,9 +252,8 @@ a {
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 4px;    
+    color: #2e2f42; 
+    margin-bottom: 8px;    
 }
 
 .team-foto-text {
@@ -243,9 +262,7 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
-    padding-top: 4px;  
-    padding-bottom: 32px;
+    color: #434455;    
 }
 
 /*-----------------section4---------------*/
