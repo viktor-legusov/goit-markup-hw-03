@@ -53,6 +53,7 @@ a {
 .header-navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .header-container {
     display: flex;
@@ -109,10 +110,8 @@ a {
 
 .header-address {
     display: flex;
-    gap: 40px;
-    margin-left: 300px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    gap: 40px;       
+    align-items: center;
 }
 
 .link {
@@ -140,8 +139,7 @@ a {
     text-align: center;
     color:white; 
     max-width: 496px;
-    margin: 0 auto;
-    padding-bottom: 48px;    
+    margin: 0 auto 48px auto;       
 }
 
 
@@ -251,8 +249,7 @@ a {
     margin-bottom: 72px;  
 }
 
-.team-foto {
-    background-color: #FFFFFF;
+.team-foto {   
     display: flex;
     gap: 24px;
 }
@@ -331,9 +328,7 @@ a {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #434455;
-    padding-top: 4px;
-    padding-bottom: 32px;
+    color: #434455;    
 }
 
 /*-------------footer---------*/
@@ -352,6 +347,7 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin-top: 16px;
+    max-width: 264px;
 }
 
 .footer-logos {
